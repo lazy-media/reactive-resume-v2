@@ -65,7 +65,7 @@ services:
         condition: service_healthy
 
   app:
-    image: pickit420/reactive-resume:latest
+    image: pickit420/reactive-resume-v2:latest
     # image: ghcr.io/lazy-media/reactive-resume:latest
     environment:
       # Server
@@ -113,3 +113,4 @@ volumes:
   postgres_data:
   seaweedfs_data:
   reactive_resume_data:
+
